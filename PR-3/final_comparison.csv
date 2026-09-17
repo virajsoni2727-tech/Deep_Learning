@@ -1,0 +1,6 @@
+Technique,Type,Detects,Lighting robustness,Approx. FPS,Best use case
+Morphology,Classical,Binary shapes / mask regions,Low–medium,Very high / image-operation dependent,Noise removal and mask cleanup
+Bitwise operations,Classical,Logical mask regions,Low,Very high,"Masking, compositing and ROI extraction"
+Histograms + alpha/beta,Classical,Not a detector,Diagnostic tool,Very high,Brightness/contrast analysis and preprocessing
+YuNet,Deep Learning,Faces + 5 landmarks,Medium–high,Measure on your system,Real-time face detection
+YOLOv8n,Deep Learning,80 COCO object classes,Medium–high,Measure on your system,General real-time object detection
